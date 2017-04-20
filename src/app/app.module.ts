@@ -6,11 +6,16 @@ import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { DevextremeComponent } from 'app/devextreme/devextreme.component';
+import { ButtonsComponent } from 'app/devextreme/buttons/buttons.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    DevextremeComponent,
+    ButtonsComponent
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,7 @@ header {
     }
     .navbar-default {
         background: #2D3C4B;
+        border-color: #2D3C4B;
     }
     .navbar-brand>img {
         height: 20px;
@@ -19,13 +20,5 @@ header {
         color: #fff;
         font-size: 20px;
         padding-top: 12px;
-    }
-    .page-header {
-        background: #fff;
-        padding: 30px 100px;
-        margin: 0 auto;
-        h1 {
-            margin-top: 0;
-        }
     }
 }
