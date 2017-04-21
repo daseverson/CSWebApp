@@ -3,4 +3,17 @@
 <h1>
     DevExtreme Works!
 </h1>
-<app-buttons></app-buttons>
+
+<div class="form">
+    <div class="dx-fieldset">
+        <div class="dx-field">
+            <div class="dx-field-label">
+                <strong>Toasts Demo</strong>
+            </div>
+            <div class="dx-field-value">
+                <dx-switch #btnSwitch [value]="false"></dx-switch>
+            </div>
+        </div>
+        <app-buttons [hidden]="!btnSwitch.value"></app-buttons>
+    </div>
+</div>
