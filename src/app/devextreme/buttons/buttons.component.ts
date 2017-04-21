@@ -27,7 +27,7 @@ export class ButtonsComponent implements OnInit {
       text: 'Apply',
       type: 'success',
       onClick: function (e) {
-        notify('The Apply button was clicked');
+        notify('The Apply button was clicked', 'success', 600);
       }
     };
 
@@ -35,7 +35,7 @@ export class ButtonsComponent implements OnInit {
       text: 'Done',
       type: 'default',
       onClick: function (e) {
-        notify('The Done button was clicked');
+        notify('The Done button was clicked', 'info', 600);
       }
     };
 
@@ -43,14 +43,14 @@ export class ButtonsComponent implements OnInit {
       text: 'Delete',
       type: 'danger',
       onClick: function (e) {
-        notify('The Delete button was clicked');
+        notify('The Delete button was clicked', 'error', 600);
       }
     };
 
     this.backButtonOptions = {
       type: 'back',
       onClick: function (e) {
-        notify('The Back button was clicked');
+        notify('The Back button was clicked', 'warning', 600);
       }
     };
 
