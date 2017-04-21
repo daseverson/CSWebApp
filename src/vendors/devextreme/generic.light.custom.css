@@ -45,14 +45,14 @@
 }
 .dx-datagrid .dx-header-filter {
     position: relative;
-    color: #959595;
+    color: #0077c8;
     font: 14px/1 DXIcons;
 }
 .dx-datagrid .dx-header-filter:before {
     content: '\f050';
 }
 .dx-datagrid .dx-header-filter-empty {
-    color: rgba(149, 149, 149, 0.5);
+    color: rgba(0, 119, 200, 0.5);
 }
 .dx-datagrid.dx-filter-menu .dx-menu-item-content .dx-icon {
     width: 14px;
@@ -198,14 +198,14 @@
     content: '\f052';
 }
 .dx-pivotgrid-fields-container .dx-header-filter {
-    color: #959595;
+    color: #0077c8;
     font: 14px/1 DXIcons;
 }
 .dx-pivotgrid-fields-container .dx-header-filter:before {
     content: '\f050';
 }
 .dx-pivotgrid-fields-container .dx-header-filter-empty {
-    color: rgba(149, 149, 149, 0.5);
+    color: rgba(0, 119, 200, 0.5);
 }
 .dx-pivotgrid-fields-container .dx-area-field {
     cursor: pointer;
@@ -7700,7 +7700,7 @@
 .dx-datagrid-column-chooser .dx-overlay-content .dx-popup-content .dx-column-chooser-item {
     margin-bottom: 10px;
     background-color: #fff;
-    color: #959595;
+    color: #0077c8;
     font-weight: normal;
     border: 1px solid #ddd;
     padding: 7px;
@@ -7712,7 +7712,7 @@
     -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.2);
-    color: #959595;
+    color: #0077c8;
     font-weight: normal;
     padding: 7px;
     border: 1px solid rgba(0, 119, 200, 0.5);
@@ -7758,7 +7758,7 @@
     min-width: 30px;
 }
 .dx-datagrid-headers {
-    color: #959595;
+    color: #0077c8;
     font-weight: normal;
     -ms-touch-action: pinch-zoom;
     touch-action: pinch-zoom;
@@ -7976,7 +7976,7 @@
     touch-action: pinch-zoom;
 }
 .dx-datagrid-group-panel .dx-group-panel-message {
-    color: #959595;
+    color: #0077c8;
     font-weight: normal;
     padding: 7px;
     border-top: 1px solid transparent;
@@ -7984,14 +7984,14 @@
 }
 .dx-datagrid-group-panel .dx-group-panel-item {
     margin-right: 10px;
-    color: #959595;
+    color: #0077c8;
     font-weight: normal;
     border: 1px solid #ddd;
     padding: 7px;
 }
 .dx-datagrid-group-panel .dx-block-separator {
     margin-right: 10px;
-    color: #959595;
+    color: #0077c8;
     font-weight: normal;
     padding: 8px;
     background-color: #eeeeee;

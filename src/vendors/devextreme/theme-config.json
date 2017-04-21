@@ -42,5 +42,6 @@
 {"key":"@progressbar-range-bg","value":"#337ab7"},
 {"key":"@pager-page-selected-bg","value":"#337ab7"},
 {"key":"@pager-page-selected-color","value":"#fff"},
+{"key":"@datagrid-columnchooser-item-color","value":"#0077c8"},
 {"key":"@tooltip-color","value":"#fff"},
 {"key":"@tooltip-bg","value":"#000"}]}
