@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { DevextremeComponent } from 'app/devextreme/devextreme.component';
 import { ButtonsComponent } from 'app/devextreme/buttons/buttons.component';
+import { DxButtonModule } from 'devextreme-angular';
+import { DashboardComponent } from 'app/dashboard/dashboard.component';
 
 
 @NgModule({
@@ -15,13 +17,15 @@ import { ButtonsComponent } from 'app/devextreme/buttons/buttons.component';
     AppComponent,
     HeaderComponent,
     DevextremeComponent,
+    DashboardComponent,
     ButtonsComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DxButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
