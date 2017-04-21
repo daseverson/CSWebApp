@@ -8,12 +8,23 @@
     <div class="dx-fieldset">
         <div class="dx-field">
             <div class="dx-field-label">
-                <strong>Toasts Demo</strong>
+                <strong>Buttons/Toasts Demo</strong>
             </div>
             <div class="dx-field-value">
-                <dx-switch #btnSwitch [value]="false"></dx-switch>
+                <dx-switch #buttonSwitch [value]="false"></dx-switch>
             </div>
         </div>
-        <app-buttons [hidden]="!btnSwitch.value"></app-buttons>
+        <app-buttons [hidden]="!buttonSwitch.value"></app-buttons>
+    </div>
+    <div class="dx-fieldset">
+        <div class="dx-field">
+            <div class="dx-field-label">
+                <strong>Local Data Grid</strong>
+            </div>
+            <div class="dx-field-value">
+                <dx-switch #localDataGridSwitch [value]="false"></dx-switch>
+            </div>
+        </div>
+        <app-local-data-grid [hidden]="!localDataGridSwitch.value"></app-local-data-grid>
     </div>
 </div>

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { DxButtonModule } from 'devextreme-angular';
 import notify from 'devextreme/ui/notify';
+
 
 @Component({
   selector: 'app-buttons',
@@ -59,5 +59,4 @@ export class ButtonsComponent implements OnInit {
   ngOnInit() { }
 
 }
-
 
