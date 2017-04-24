@@ -9,13 +9,14 @@ import { HeaderComponent } from './header/header.component';
 import { DashboardComponent } from 'app/dashboard/dashboard.component';
 import { DevextremeModule } from 'app/devextreme/devextreme.module';
 import { DxBoxModule } from 'devextreme-angular';
+import { DashboardModule } from 'app/dashboard/dashboard.module';
+import { MockupsModule } from 'app/mockups/mockups.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    DashboardComponent,
   ],
   imports: [
     BrowserModule,
@@ -23,6 +24,8 @@ import { DxBoxModule } from 'devextreme-angular';
     HttpModule,
     AppRoutingModule,
     DevextremeModule,
+    DashboardModule,
+    MockupsModule,
     DxBoxModule
   ],
   providers: [],

@@ -18,9 +18,10 @@
         "testTsconfig": "tsconfig.spec.json",
         "prefix": "app",
         "styles": [
+            "../node_modules/normalize.css/normalize.css",
             "../node_modules/font-awesome/css/font-awesome.css",
             "../node_modules/devextreme/dist/css/dx.common.css",
-            "./vendors/bootstrap/bootstrap.custom.less",
+            "./vendors/google-fonts/open-sans.scss",
             "./vendors/devextreme/generic.light.custom.css",
             "./vendors/devextreme/generic.light.custom.overrides.scss",
             "./styles.scss"
