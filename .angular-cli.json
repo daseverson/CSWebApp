@@ -21,7 +21,8 @@
             "../node_modules/font-awesome/css/font-awesome.css",
             "../node_modules/devextreme/dist/css/dx.common.css",
             "./vendors/bootstrap/bootstrap.custom.less",
-            "./vendors/devextreme/generic.light.custom.css",            
+            "./vendors/devextreme/generic.light.custom.css",
+            "./vendors/devextreme/generic.light.custom.overrides.scss",
             "./styles.scss"
         ],
         "scripts": [],

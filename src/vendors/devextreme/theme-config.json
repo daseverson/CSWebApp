@@ -42,6 +42,12 @@
 {"key":"@progressbar-range-bg","value":"#337ab7"},
 {"key":"@pager-page-selected-bg","value":"#337ab7"},
 {"key":"@pager-page-selected-color","value":"#fff"},
-{"key":"@datagrid-columnchooser-item-color","value":"#0077c8"},
+{"key":"@DATAGRID_BORDER_COLOR","value":"#dedede"},
+{"key":"@datagrid-columnchooser-item-color","value":"#666666"},
+{"key":"@datagrid-columnchooser-font-weight","value":"light"},
+{"key":"@datagrid-hover-bg","value":"#f0f0f0"},
+{"key":"@datagrid-group-row-bg","value":"#f0f0f0"},
+{"key":"@datagrid-link-color","value":"#0077c8"},
+{"key":"@datagrid-row-alternation-bg","value":"#f0f0f0"},
 {"key":"@tooltip-color","value":"#fff"},
 {"key":"@tooltip-bg","value":"#000"}]}
