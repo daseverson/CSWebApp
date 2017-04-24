@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { DashboardComponent } from 'app/dashboard/dashboard.component';
 import { DevextremeModule } from 'app/devextreme/devextreme.module';
+import { DxBoxModule } from 'devextreme-angular';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { DevextremeModule } from 'app/devextreme/devextreme.module';
     FormsModule,
     HttpModule,
     AppRoutingModule,
-    DevextremeModule
+    DevextremeModule,
+    DxBoxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
