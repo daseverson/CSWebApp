@@ -1,16 +1,14 @@
-header {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+dx-box {
     background: #2D3C4B;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
     position: fixed;
-    height: 40px;
-    width: 100%;
-    padding-left: 10px;
+    z-index: 1;
+    a {
+        text-decoration: none;
+    }
     img {
-        height: 17px;
-        padding: 1px 10px 1px 0;
+        max-height: 15px;
+        padding: 0 10px;
         border-right: 1px solid #fff;
     }
     h3 {
@@ -19,5 +17,7 @@ header {
         font-size: 17px;
         display: inline-block;
         padding-left: 10px;
+        margin: 0;
+        vertical-align: text-top;
     }
 }

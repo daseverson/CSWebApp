@@ -26,4 +26,15 @@
         </div>
         <app-local-data-grid [hidden]="!localDataGridSwitch.value"></app-local-data-grid>
     </div>
+    <div class="dx-fieldset">
+        <div class="dx-field">
+            <div class="dx-field-label">
+                <strong>Forms</strong>
+            </div>
+            <div class="dx-field-value">
+                <dx-switch #formSwitch [value]="false"></dx-switch>
+            </div>
+        </div>
+        <app-form [hidden]="!formSwitch.value"></app-form>
+    </div>
 </div>
