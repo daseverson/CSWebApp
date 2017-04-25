@@ -649,7 +649,7 @@
     border-left: none;
 }
 .dx-validationsummary-item {
-    color: #d9534f;
+    color: #9e2a2f;
 }
 .dx-validationsummary-item-content {
     border-bottom: 1px dashed;
@@ -658,7 +658,7 @@
 }
 .dx-invalid-message > .dx-overlay-content {
     color: #fff;
-    background-color: #d9534f;
+    background-color: #9e2a2f;
 }
 .dx-scheduler-pseudo-cell:before {
     content: '';
@@ -3982,10 +3982,10 @@
     opacity: 0.4;
 }
 .dx-invalid .dx-checkbox-container .dx-checkbox-icon {
-    border: 1px solid rgba(217, 83, 79, 0.4);
+    border: 1px solid rgba(158, 42, 47, 0.4);
 }
 .dx-invalid.dx-state-focused .dx-checkbox-container .dx-checkbox-icon {
-    border-color: #d9534f;
+    border-color: #9e2a2f;
 }
 .dx-switch {
     width: 44px;
@@ -4387,15 +4387,15 @@
     min-height: 34px;
 }
 .dx-invalid.dx-texteditor {
-    border-color: rgba(217, 83, 79, 0.4);
+    border-color: rgba(158, 42, 47, 0.4);
 }
 .dx-invalid.dx-texteditor.dx-state-focused {
-    border-color: #d9534f;
+    border-color: #9e2a2f;
 }
 .dx-invalid.dx-texteditor .dx-texteditor-container:after {
     pointer-events: none;
     font-weight: bold;
-    background-color: #d9534f;
+    background-color: #9e2a2f;
     color: #fff;
     content: '!';
     position: absolute;
@@ -5822,7 +5822,7 @@
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAQAAAC00HvSAAABJklEQVRIx62WvW2EQBBGpwlSArdgSrBESuKIQhySLJJbcAuXrXTZteCAAG3GlWBRwVsHB+Ykw8zeafVlaPSY/1lBdlXQ0OMJzMBMwNPTUOzb732scAzEXQ04KhtT0jEdIFZNdJQapuZsIFadqY8wLWMiJBIZafcwLdcHIJHIdQNt4YwPQm4e1feYMjkn/3NUbpjuSUgk0q2YSinx5xL0SSl/dcM45V8r5qLYOEQoDjs2FTNQCI0a+deC+VatGqFPwugD0gs+A8YLQTW4LJgf1SoIcxJG751ZIAMGy5sp1ZuQgHkxMMGqVJq81Tdp6q0unnhFeDMK3lgz9b6k+MOaKX3CUzDO3jd2UH/7JtP2y7aLM12GbHcq29XMdsOzvSiyvW+efG39AmPXSbHWZjgLAAAAAElFTkSuQmCC);
 }
 .dx-toast-error {
-    background-color: #d9534f;
+    background-color: #9e2a2f;
 }
 .dx-toast-error .dx-toast-icon {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAQAAAC00HvSAAABeklEQVRIx62WMWrDQBBFx01I5zQinQ5hdINA3Kp3mUNEnSBIdwgEcgeBC18gVRojjDr7BklUxAE3b1NYihVrdmWbZbpl9FjN/zOzgqgREJNTUFEDNRUFOTGBnq8dRmQsMWosyYiGMSEpawuijTUpoQszZT6AaGPO1IaZsToRYjCsmGmYGZszIAbD5gA6/M7qTMj+RtMuJjy5Jv0ahQdMeiHEYEhbTKRK/KN+9K3IH+0xmZK+4Jb33mnChM/eaYYIgeLYBdcI4yNQgiBM+Oo5OxBi5S5l0ztdUNJoGrPr5cdCrtbgGOSCGHKhsCjQBbkhhkKorFK2oKsBiKESaocnys58sUMMtYDTXA8NZMSbIwv3bZJO/48VH3VuY6/NYwO4V+Tv1aYYgMTsVB8dKZUPQmyG/OcbzcUvijot6IYPzcVaT225UyQuCRjxrGyLwNbhW54Un5S8KrmZa96cGn/zxtP08zaLPW0Gb3vK29b0tsO9vSi8vW8ufG39AnvvGenmMu5AAAAAAElFTkSuQmCC);
@@ -6521,7 +6521,7 @@
     right: 38px;
     pointer-events: none;
     font-weight: bold;
-    background-color: #d9534f;
+    background-color: #9e2a2f;
     color: #fff;
     content: '!';
     position: absolute;
@@ -6550,7 +6550,7 @@
     margin-bottom: 20px;
     margin-left: -20px;
     border-bottom: 1px solid #ddd;
-    color: #d9534f;
+    color: #9e2a2f;
 }
 .dx-rtl .dx-lookup-validation-message {
     margin-right: -20px;
@@ -6962,13 +6962,13 @@
     border: 1px solid #0077c8;
 }
 .dx-invalid .dx-radiobutton-icon:before {
-    border-color: rgba(217, 83, 79, 0.4);
+    border-color: rgba(158, 42, 47, 0.4);
 }
 .dx-invalid .dx-state-hover.dx-radiobutton .dx-radiobutton-icon:before {
-    border-color: #d9534f;
+    border-color: #9e2a2f;
 }
 .dx-invalid .dx-state-focused.dx-radiobutton .dx-radiobutton-icon:before {
-    border-color: #d9534f;
+    border-color: #9e2a2f;
 }
 .dx-rtl .dx-radiobutton.dx-radiobutton-checked .dx-radiobutton-icon-dot,
 .dx-rtl.dx-radiobutton.dx-radiobutton-checked .dx-radiobutton-icon-dot {
@@ -7544,7 +7544,7 @@
     border-right: 1px solid #dedede;
 }
 .dx-datagrid .dx-error-row td {
-    background-color: rgba(217, 83, 79, 0.6);
+    background-color: rgba(158, 42, 47, 0.6);
     color: #fff;
     padding: 7px;
 }
@@ -8027,10 +8027,10 @@
     background-color: #fafafa;
 }
 .dx-datagrid-rowsview .dx-data-row .dx-validator.dx-datagrid-invalid .dx-highlight-outline::after {
-    border: 1px solid rgba(217, 83, 79, 0.4);
+    border: 1px solid rgba(158, 42, 47, 0.4);
 }
 .dx-datagrid-rowsview .dx-data-row .dx-validator.dx-datagrid-invalid.dx-focused > .dx-highlight-outline::after {
-    border: 1px solid #d9534f;
+    border: 1px solid #9e2a2f;
 }
 .dx-datagrid-rowsview .dx-data-row .dx-invalid-message .dx-overlay-content {
     padding: 9px 17px 9px;
@@ -8058,7 +8058,7 @@
     padding-left: 8px;
 }
 .dx-datagrid-rowsview .dx-adaptive-detail-row .dx-datagrid-invalid {
-    border: 1px solid rgba(217, 83, 79, 0.4);
+    border: 1px solid rgba(158, 42, 47, 0.4);
 }
 .dx-datagrid-rowsview .dx-adaptive-detail-row .dx-datagrid-invalid.dx-adaptive-item-text {
     padding-top: 7px;
@@ -8797,10 +8797,10 @@
     box-shadow: none;
 }
 .dx-invalid.dx-calendar {
-    border-color: rgba(217, 83, 79, 0.4);
+    border-color: rgba(158, 42, 47, 0.4);
 }
 .dx-invalid.dx-calendar.dx-state-focused {
-    border-color: #d9534f;
+    border-color: #9e2a2f;
 }
 .dx-popup-wrapper .dx-calendar .dx-calendar-caption-button {
     margin: 0;
@@ -8974,13 +8974,13 @@
     cursor: default;
 }
 .dx-field-value.dx-attention {
-    color: #d9534f;
+    color: #9e2a2f;
     padding-left: 28px;
 }
 .dx-field-value.dx-attention:before {
     pointer-events: none;
     font-weight: bold;
-    background-color: #d9534f;
+    background-color: #9e2a2f;
     color: #fff;
     content: '!';
     position: absolute;

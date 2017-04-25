@@ -12,7 +12,7 @@
 {"key":"@base-border-radius","value":"4px"},
 {"key":"@base-success","value":"#5cb85c"},
 {"key":"@base-warning","value":"#f0ad4e"},
-{"key":"@base-danger","value":"#d9534f"},
+{"key":"@base-danger","value":"#9e2a2f"},
 {"key":"@badge-bg","value":"#f0ad4e"},
 {"key":"@badge-color","value":"#fff"},
 {"key":"@texteditor-border-color","value":"#ccc"},
