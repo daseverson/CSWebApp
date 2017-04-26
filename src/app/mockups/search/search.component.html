@@ -1,0 +1,36 @@
+<a href="" [routerLink]="['/mockups']"><i class="fa fa-angle-left" aria-hidden="true"></i> Back to Mockups</a>
+<hr />
+<h1>Search</h1>
+
+<dx-box direction="row" [height]="100" align="start" crossAlign="center">
+    <dxi-item [baseSize]="100">
+        <a href="javascript:void(0)"><i class="fa fa-user"></i> Employee</a>
+    </dxi-item>
+    <dxi-item [baseSize]="100">
+        <a href="javascript:void(0)"><i class="fa fa-user-md"></i> Provider</a>
+    </dxi-item>
+    <dxi-item [baseSize]="100">
+        <a href="javascript:void(0)"><i class="fa fa-user-secret"></i> Customer</a>
+    </dxi-item>
+</dx-box>
+<!--[labelLocation]="labelLocation" [minColWidth]="minColWidth" [width]="width" [readOnly]="readOnly"-->
+<dx-form id="search" [(formData)]="query[0]" [colCount]="3" [showColonAfterLabel]="false"></dx-form>
+
+<!--<dx-form id="form"
+        [colCount]="2"
+        [formData]="query">
+        <dxi-item dataField="FirstName" [editorOptions]="{ disabled: true }"></dxi-item>
+        <dxi-item dataField="LastName" [editorOptions]="{ disabled: true }"></dxi-item>
+    </dx-form>-->
+
+<hr />
+<dx-box direction="row" [width]="300" align="center" crossAlign="center">
+    <dxi-item [ratio]="1">
+        <dx-button text="Search" [type]="default"></dx-button>
+    </dxi-item>
+    <dxi-item [ratio]="1">
+        <dx-button text="Clear" [type]="default" icon="favorites"></dx-button>
+    </dxi-item>
+</dx-box>
+<h1>Employee Results</h1>
+<a href="javascript:void(0)"><i class="fa fa-plus"></i> Create New Employee</a>
