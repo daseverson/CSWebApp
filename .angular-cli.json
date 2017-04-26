@@ -24,7 +24,7 @@
             "./vendors/google-fonts/open-sans.scss",
             "./vendors/devextreme/generic.light.custom.css",
             "./vendors/devextreme/generic.light.custom.overrides.scss",
-            "./styles.scss"
+            "./styles/styles.scss"
         ],
         "scripts": [],
         "environmentSource": "environments/environment.ts",

@@ -1,0 +1,150 @@
+<a href="" [routerLink]="['/dashboard']"><i class="fa fa-angle-left" aria-hidden="true"></i> Home</a>
+<hr />
+<dx-box direction="row" align="start">
+    <dxi-item [ratio]="1">
+        <h1>Style Guide</h1>
+        <p>A reference guide for patterns in CS Web App.</p>
+    </dxi-item>
+</dx-box>
+<dx-box direction="row" [height]="100" align="start" crossAlign="end">
+    <dxi-item [ratio]="1">
+        <h2>Colors</h2>
+    </dxi-item>
+</dx-box>
+<hr />
+<dx-box direction="row">
+    <dxi-item [ratio]="1">
+        <div class="dx-fieldset">
+            <div class="dx-field">
+                <div class="dx-field-label">
+                    PANTONE-2945
+                </div>
+                <div class="dx-field-value">
+                    <dx-color-box value="#004C97" [readOnly]="true"></dx-color-box>
+                </div>
+            </div>
+            <div class="dx-field">
+                <div class="dx-field-label">
+                    PANTONE-660 (ON-SCREEN)
+                </div>
+                <div class="dx-field-value">
+                    <dx-color-box value="#0077C8" [readOnly]="true"></dx-color-box>
+                </div>
+            </div>
+            <div class="dx-field">
+                <div class="dx-field-label">
+                    PANTONE-287
+                </div>
+                <div class="dx-field-value">
+                    <dx-color-box value="#003087" [readOnly]="true"></dx-color-box>
+                </div>
+            </div>
+            <div class="dx-field">
+                <div class="dx-field-label">
+                    PANTONE-7487
+                </div>
+                <div class="dx-field-value">
+                    <dx-color-box value="#8EDD65" [readOnly]="true"></dx-color-box>
+                </div>
+            </div>
+            <div class="dx-field">
+                <div class="dx-field-label">
+                    PANTONE-358
+                </div>
+                <div class="dx-field-value">
+                    <dx-color-box value="#ADDC91" [readOnly]="true"></dx-color-box>
+                </div>
+            </div>
+            <div class="dx-field">
+                <div class="dx-field-label">
+                    PANTONE-7730
+                </div>
+                <div class="dx-field-value">
+                    <dx-color-box value="#4B9560" [readOnly]="true"></dx-color-box>
+                </div>
+            </div>
+        </div>
+    </dxi-item>
+    <dxi-item [ratio]="1">
+        <div class="dx-fieldset">
+            <div class="dx-field">
+                <div class="dx-field-label">
+                    PANTONE-Cool Gray 11
+                </div>
+                <div class="dx-field-value">
+                    <dx-color-box value="#53565A" [readOnly]="true"></dx-color-box>
+                </div>
+            </div>
+            <div class="dx-field">
+                <div class="dx-field-label">
+                    PANTONE-Cool Gray 8
+                </div>
+                <div class="dx-field-value">
+                    <dx-color-box value="#888B8D" [readOnly]="true"></dx-color-box>
+                </div>
+            </div>
+            <div class="dx-field">
+                <div class="dx-field-label">
+                    PANTONE-Cool Gray 5
+                </div>
+                <div class="dx-field-value">
+                    <dx-color-box value="#B1B3B3" [readOnly]="true"></dx-color-box>
+                </div>
+            </div>
+            <div class="dx-field">
+                <div class="dx-field-label">
+                    PANTONE-Cool Gray 2
+                </div>
+                <div class="dx-field-value">
+                    <dx-color-box value="#D0D0CE" [readOnly]="true"></dx-color-box>
+                </div>
+            </div>
+            <div class="dx-field">
+                <div class="dx-field-label">
+                    PANTONE-158
+                </div>
+                <div class="dx-field-value">
+                    <dx-color-box value="#E87722" [readOnly]="true"></dx-color-box>
+                </div>
+            </div>
+            <div class="dx-field">
+                <div class="dx-field-label">
+                    PANTONE-708
+                </div>
+                <div class="dx-field-value">
+                    <dx-color-box value="#9E2A2F" [readOnly]="true"></dx-color-box>
+                </div>
+            </div>
+        </div>
+
+    </dxi-item>
+</dx-box>
+<dx-box direction="row" [height]="100" align="start" crossAlign="end">
+    <dxi-item [ratio]="1">
+        <h2>Headings</h2>
+    </dxi-item>
+</dx-box>
+<hr />
+<dx-box direction="row">
+    <dxi-item [ratio]="1">
+        <br />
+        <h1>Heading 1 OR .h1 class</h1>
+        <h2>Heading 2 OR .h2 class</h2>
+        <h3>Heading 3 OR .h3 class</h3>
+        <h4>Heading 4 OR .h4 class</h4>
+        <h5>Heading 5 OR .h5 class</h5>
+        <h6>Heading 6 OR .h6 class</h6>
+    </dxi-item>
+</dx-box>
+
+
+
+<!--<dx-accordion #accordion [dataSource]="data" [collapsible]="true" [multiple]="true" [animationDuration]="300" [selectedItems]="false">
+    <div *dxTemplate="let data of 'title'">
+        <p>{{data.title}}</p>
+    </div>
+    <div *dxTemplate="let data of 'item'">
+        <div [innerHTML]="data.content"></div>
+    </div>
+</dx-accordion>
+-->

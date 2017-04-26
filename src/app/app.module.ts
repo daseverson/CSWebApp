@@ -8,15 +8,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { DashboardComponent } from 'app/dashboard/dashboard.component';
 import { DevextremeModule } from 'app/devextreme/devextreme.module';
-import { DxBoxModule } from 'devextreme-angular';
+import { DxBoxModule, DxAccordionModule, DxColorBoxModule, DxResponsiveBoxModule } from 'devextreme-angular';
 import { DashboardModule } from 'app/dashboard/dashboard.module';
 import { MockupsModule } from 'app/mockups/mockups.module';
+import { StyleGuideComponent } from './style-guide/style-guide.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    StyleGuideComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,7 +28,10 @@ import { MockupsModule } from 'app/mockups/mockups.module';
     DevextremeModule,
     DashboardModule,
     MockupsModule,
-    DxBoxModule
+    DxBoxModule,
+    DxAccordionModule,
+    DxColorBoxModule,
+    DxResponsiveBoxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
