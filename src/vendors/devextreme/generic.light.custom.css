@@ -3623,15 +3623,15 @@
     color: #0077c8;
 }
 .dx-button.dx-state-hover {
-    background-color: #ffffff;
+    background-color: #d9ebf7;
     border-color: #00538b;
 }
 .dx-button.dx-state-focused {
-    background-color: #ffffff;
+    background-color: #d9ebf7;
     border-color: #002b49;
 }
 .dx-button.dx-state-active {
-    background-color: #ffffff;
+    background-color: #d9ebf7;
     border-color: #002b49;
     color: #333333;
 }
@@ -5231,11 +5231,11 @@
 .dx-state-hover.dx-numberbox-spin-button .dx-numberbox-spin-down-icon,
 .dx-state-hover.dx-numberbox-spin-button .dx-numberbox-spin-up-icon {
     border: 1px solid transparent;
-    background-color: #ffffff;
+    background-color: #d9ebf7;
 }
 .dx-state-active.dx-numberbox-spin-button .dx-numberbox-spin-down-icon,
 .dx-state-active.dx-numberbox-spin-button .dx-numberbox-spin-up-icon {
-    background-color: #ffffff;
+    background-color: #d9ebf7;
     color: #333333;
 }
 .dx-numberbox-spin.dx-invalid .dx-texteditor-input {
@@ -5972,15 +5972,15 @@
     color: #0077c8;
 }
 .dx-popup-title .dx-closebutton.dx-state-hover {
-    background-color: #ffffff;
+    background-color: #d9ebf7;
     border-color: #00538b;
 }
 .dx-popup-title .dx-closebutton.dx-state-focused {
-    background-color: #ffffff;
+    background-color: #d9ebf7;
     border-color: #002b49;
 }
 .dx-popup-title .dx-closebutton.dx-state-active {
-    background-color: #ffffff;
+    background-color: #d9ebf7;
     border-color: #002b49;
     color: #333333;
 }
