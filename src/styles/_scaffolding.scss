@@ -3,23 +3,34 @@
 \*------------------------------------*/
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, legend, label, table, header, footer, nav, section, figure { 
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	margin: 0; 
-	padding: 0; 
-} 
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+app-root {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 header, footer, nav, section, article, hgroup, figure {
-	display: block;	
+    display: block;
 }
 
 a {
@@ -34,18 +45,18 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
 }
 
 img {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 hr {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  border: 0;
-  border-top: 1px solid #bbb;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 0;
+    border-top: 1px solid #bbb;
 }

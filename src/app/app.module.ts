@@ -12,6 +12,7 @@ import { DxBoxModule, DxAccordionModule, DxColorBoxModule, DxResponsiveBoxModule
 import { DashboardModule } from 'app/dashboard/dashboard.module';
 import { MockupsModule } from 'app/mockups/mockups.module';
 import { StyleGuideComponent } from './style-guide/style-guide.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { StyleGuideComponent } from './style-guide/style-guide.component';
     AppComponent,
     HeaderComponent,
     StyleGuideComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
